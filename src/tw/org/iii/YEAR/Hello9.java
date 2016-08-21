@@ -7,7 +7,7 @@ public class Hello9 {
 			if (i%2==0){
 				continue;
 			}
-			System.out.println(i);
+			System.out.println(i+1);
 		}
 
 	}
