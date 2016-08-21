@@ -39,7 +39,7 @@ public class GuessNumber {
 			}
 		}
 
-		return "1A2B";
+		return A + "A" + B + "B";
 	}
 
 	static String createAnswer(int n) {
