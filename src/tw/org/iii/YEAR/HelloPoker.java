@@ -42,9 +42,13 @@ public class HelloPoker {
 			// }
 
 			// 發牌 => 4個玩家
+		System.out.println("=====");
 			int[][] player = new int[4][13];
 			for (int i=0; i<poker.length; i++){
 				player[i%4][i/4] = poker[i];
+				for (int v:player[1]){
+					System.out.println(v);
+				}
 			}
 			
 		

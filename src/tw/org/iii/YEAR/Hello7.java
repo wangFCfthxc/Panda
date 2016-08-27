@@ -14,15 +14,15 @@ public class Hello7 {
 			for (int i = 1; i <=10 ; i++){
 				int v = j * 10 + i;
 				//判斷是否為質數
-				boolean isok = true;
+				boolean isOK = true;
 				for (int k=2; k<v; k++){
 					if (v % k == 0){
 						//你不是值數
-						isok = false;
+						isOK = false;
 						break;
 					}
 				}
-				System.out.print(v + (isok?"*":" ")  + " ");
+				System.out.print(v + (isOK?"*":" ")  + " ");
 			}
 			System.out.println();
 		}

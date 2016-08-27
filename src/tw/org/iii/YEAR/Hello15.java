@@ -4,7 +4,7 @@ public class Hello15 {
 
 	public static void main(String[] args) {
 		int[] a = {1,2,3,4,5};
-		int[][] b = {{1,2},{3,4,5},{6,7,8,9}};
+		int[][] b = {{1,3},{3,4,5},{6,7,8,9}};
 		int[][][] c = new int[2][2][1];
 		c[0][0][0] = 1;
 		c[0][1][0] = 2;

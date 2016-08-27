@@ -15,7 +15,7 @@ public class Hello4 {
 		int intYear = Integer.parseInt(strYear);
 		int intMonth = Integer.parseInt(strMonth);
 		int intDate = Integer.parseInt(strDate);
-		System.out.println(intYear + "/" + strMonth + "/" +strDate);
+		System.out.println(intYear + "/" + intMonth + "/" +intDate);
 		
 	}
 
