@@ -3,7 +3,7 @@ package tw.org.iii.YEAR;
 public class Hello20 {
 
 	public static void main(String[] args) {
-		if (TWid.isRight("0920-123456")){
+		if (TWid.isRight("B120863158")){
 			System.out.println("OK");
 		}else {
 			System.out.println("XX");
