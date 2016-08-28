@@ -1,18 +1,18 @@
 package tw.org.iii.YEAR;
 
-public class Bike {
+public class Bike2 {
 	// Field
 	private double speed;
 	static int count;
 	
 	// Constructor
-	public Bike(){
+	Bike2(){
 		count++;
 		speed = 1;
 		System.out.println("Bike():" + speed);
 	}
 	// Method
-	protected void upSpeed(){
+	void upSpeed(){
 		speed = speed<1?1:speed*1.2;
 	}
 	void downSpeed(){

@@ -3,7 +3,7 @@ package tw.org.iii.YEAR;
 import javax.swing.JOptionPane;
 
 
-public class Hello4 {
+public class Hello04 {
 
 	public static void main(String[] args) {
 		String strYear = JOptionPane.showInputDialog("Year");

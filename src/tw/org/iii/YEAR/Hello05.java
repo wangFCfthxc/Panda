@@ -1,6 +1,6 @@
 package tw.org.iii.YEAR;
 
-public class Hello5 {
+public class Hello05 {
 
 	public static void main(String[] args) {
 		int i = 0;

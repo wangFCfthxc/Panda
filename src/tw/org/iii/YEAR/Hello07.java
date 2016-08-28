@@ -1,6 +1,6 @@
 package tw.org.iii.YEAR;
 
-public class Hello7 {
+public class Hello07 {
 
 	public static void main(String[] args) {
 //	TODO	for (int i = 1; i <= 100; i++) {

@@ -1,6 +1,6 @@
 package tw.org.iii.YEAR;
 
-public class Hello3 {
+public class Hello03 {
 
 	public static void main(String[] args) {
 		int month = (int) (Math.random() * 12 + 1); // 1-12;

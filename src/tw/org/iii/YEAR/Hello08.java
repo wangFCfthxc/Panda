@@ -1,6 +1,6 @@
 package tw.org.iii.YEAR;
 
-public class Hello8 {
+public class Hello08 {
 
 	public static void main(String[] args) {
 		panda:
