@@ -1,5 +1,6 @@
 package tw.org.iii.YEAR;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Hello55 {
@@ -17,8 +18,15 @@ public class Hello55 {
 		System.out.println(list.get(4));
 		list.remove(4);
 		System.out.println(list);
+		System.out.println("-----");
+		Iterator it = list.iterator();
+		while (it.hasNext()){
+			Object obj = it.next();
+			System.out.println(obj);
+		}
+		System.out.println("------");
 		for(Object obj : list){
-			System.out.println((Integer)obj);
+			System.out.println(obj);
 		}
 	}
 

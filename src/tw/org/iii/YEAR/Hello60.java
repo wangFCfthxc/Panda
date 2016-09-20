@@ -3,9 +3,9 @@ package tw.org.iii.YEAR;
 public class Hello60 {
 
 	public static void main(String[] args) {
-		Hello601 obj1 = new Hello601("A");
-		Hello601 obj2 = new Hello601("B");
-		Hello602 obj3 = new Hello602("C");
+		Hello601 obj1 = new Hello601("A",200);
+		Hello601 obj2 = new Hello601("B",100);
+		Hello602 obj3 = new Hello602("C",50);
 		Thread t3 = new Thread(obj3);
 		obj1.start();
 		obj2.start();
@@ -37,7 +37,7 @@ class Hello601 extends Thread{
 
 }
 
-class Hello602 {
+class Hello602 implements Runnable{
 	private String name;
 	private int delay;
 	Hello602(String name, int delay){this.name = name; this .delay = delay;}	
