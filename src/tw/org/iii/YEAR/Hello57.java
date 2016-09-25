@@ -7,7 +7,7 @@ import java.util.LinkedList;
 public class Hello57 {
 
 	public static void main(String[] args) {
-		String answer = createAnswer(4);
+		String answer = createAnswerV2(4);
 		System.out.println(answer);
 
 	}
