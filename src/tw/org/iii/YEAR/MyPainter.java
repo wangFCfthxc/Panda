@@ -85,6 +85,7 @@ public class MyPainter extends JPanel {
 			// System.out.println("Pressed:" + e.getX());
 			LinkedList<HashMap<String, Integer>> line = new LinkedList<>();
 			lines.add(line);
+			recycle.clear();
 			addPoint(e);
 		}
 

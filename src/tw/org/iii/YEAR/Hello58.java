@@ -89,7 +89,7 @@ public class Hello58 extends JFrame{
 				painter.getHeight(), 
 				BufferedImage.TYPE_INT_ARGB); 
 		Graphics g = bi.createGraphics();
-		this.paint(g);  //this == JComponent
+		painter.paint(g);  //this == JComponent
 		g.dispose();
 		try{ImageIO.write(bi,"png",new File("test.png"));}catch (Exception e) {}
 	}
